@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{}
+.main{
+    background: url(./img/fairy.jpg);
+    height: 790px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.page-body{
+    width: 300px;
+    height: auto;
+    background:  #ffffcc;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-117%, -70%);
+    border-radius: 6px;
+    box-shadow: 2px 1px 25px 5px;
+    background-image: radial-gradient(#ff8080, #ffff99);
+}
+.header{
+    display: inline-block;
+    background: #206020e0;
+    padding: 20px 93px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.header h2{
+    display: inline-block;
+
+}
+.form{
+    margin-top: 50px;
+}
+.form p a{
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: -125px;
+}
+.user{
+    border: 1px solid #001f4d;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: #fff;
+}
+::placeholder{
+    font-size: 16px;
+    padding-left: 30px;
+}
+.login{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #008000a2;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 170px;
+    border-radius: 5px;
+}
+.login:hover{
+    cursor: pointer;
+}
+.footer{
+    text-align: right;
+    height: 50px;
+
+}
+.footer p a {
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
